@@ -1,0 +1,28 @@
+{
+  "name": "ircweb",
+  "description": "A browser-based IRC client with server",
+  "keywords": [
+    "irc"
+  ],
+  "author": "Wes Bullard <info@irchainscriptz.net>",
+  "version": "0.0.1",
+  "main": "./lib/ircweb.js",
+  "bin": {
+    "subway": "./ircweb"
+  },
+  "engines": {
+  "node": ">=0.10.13"
+  },
+  "dependencies": {
+  "irc": "0.3.x",
+  "irc-color": "1.0.x",
+  "scalable-server": "1.0.x",
+  "scalable-server-client": "0.0.7",
+  "ssm-irc": "0.0.7"
+  },
+  "noAnalyze": true,
+  "subdomain": "ircweb",
+  "scripts": {
+  "start": "ircweb"
+  }
+}
