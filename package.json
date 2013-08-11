@@ -15,7 +15,7 @@
   },
   "dependencies": {
   "irc": "0.3.x",
-  "irc-color": "1.0.x",
+  "irc-colors": "1.0.x",
   "scalable-server": "1.0.x",
   "scalable-server-client": "0.0.7",
   "ssm-irc": "0.0.7"
